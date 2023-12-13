@@ -1,0 +1,15 @@
+{
+	"name": "Spire MFG Interview Container",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"ms-python.python@2022.2.1924087327"
+			]
+		}
+	}
+}

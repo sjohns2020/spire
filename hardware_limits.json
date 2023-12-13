@@ -1,0 +1,27 @@
+{
+    "obc": {"min_current": 250, "max_current": 700, "min_voltage": 3.135, "max_voltage": 3.465},
+    "lembat": {"min_voltage": 7.2, "max_voltage": 8.4},
+    "lembat_mag_charging": {"max_current": 1300},
+    "lembat_mag_discharging": {"max_current": 250},
+    "lembat_std_deviation_currents": {"max": 50},
+    "lembat_banks": {"max_current": 10, "max_voltage": 4.5},
+    "lembat_idle" : {"max_current": 10},
+    "lembat_depleted": {"min_voltage": 4.5, "min_current": 1050, "max_current": 1350},
+    "eps_pcm_12v": {"min_current": 0, "max_current": 800, "min_voltage": 11.695, "max_voltage": 12.432},
+    "eps_pcm_3v3": {"min_current": 0, "max_current": 2500, "min_voltage": 3.2, "max_voltage": 3.474},
+    "eps_pcm_3v3_battery": {"min_current": 0, "max_current": 50},
+    "eps_pcm_5v": {"min_current": 0, "max_current": 1750, "min_voltage": 4.9, "max_voltage": 5.300},
+    "eps_pcm_vbatt": {"min_current": 0, "max_current": 1000, "min_voltage": 7.2, "max_voltage": 8.4},
+    "eps_pcm_bat_pos": {"min_current": -2200, "max_current": 2200, "min_voltage": 7.2, "max_voltage": 8.4},
+    "eps_pcm_mcu": {"min_current": 40, "max_current": 150},
+    "pdu_3v3_rail": {"min_voltage": 3.2, "max_voltage": 3.4},
+    "pdu_5v_rail": {"min_voltage": 4.9, "max_voltage": 5.3},
+    "pdu_12v_rail": {"min_voltage": 11.8, "max_voltage": 12.35},
+    "pdu_vbat_rail": {"min_voltage": 7.2, "max_voltage": 8.4},
+    "pdu_3v3": {"min_current": 0, "max_current": 1200, "min_voltage": 3.2, "max_voltage": 3.4},
+    "pdu_5v": {"min_current": 0, "max_current": 1200, "min_voltage": 4.9, "max_voltage": 5.3},
+    "pdu_sram": {"min_current": 4, "max_current": 180, "min_voltage": 3.2, "max_voltage": 3.4},
+    "pdu_nand": {"min_current": 0.1, "max_current": 30, "min_voltage": 3.2, "max_voltage": 3.4}
+    "pdu_battery": {"min_current": 0, "max_current": 80, "min_voltage": 7.2, "max_voltage": 8.4}
+}
+
